@@ -14,14 +14,14 @@ public class ListaUmQuestaoDoze {
         Scanner scan = new Scanner(System.in);
 
         while (true) {
-            System.out.print("Digite os km rodados ou -1 para sair: ");
+            System.out.print("Digite os km rodados: ");
             km = scan.nextInt();
 
             if (km == -1){
                  break;
             }
 
-            System.out.print("Consumo de combustivel em litros ou -1 para sair: ");
+            System.out.print("Consumo de combustivel: ");
             litros = scan.nextInt();
 
             if (litros == -1) {
@@ -43,8 +43,8 @@ public class ListaUmQuestaoDoze {
         }
 
         System.out.printf("\nTotal de combustivel gasto: %d litros\n", Tlitros);
-        System.out.printf("Quilometros por litro: %.2f\n", media);
-        System.out.printf("Total de quilometros rodados: %d\n", totalkm);
+        System.out.printf("Km por litro: %.2f\n", media);
+        System.out.printf("Total de Km rodados: %d\n", totalkm);
 
         scan.close();
     }
