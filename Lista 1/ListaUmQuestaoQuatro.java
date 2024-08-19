@@ -9,7 +9,7 @@ public class ListaUmQuestaoQuatro {
         
         float m = scan.nextFloat();
         
-        float km = m * 1.60934f;
+        float km = m * 1.609f;
         
         System.out.println(km);
         
