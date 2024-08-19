@@ -11,7 +11,7 @@ public class ListaUmQuestaoQuatro {
         
         float km = m * 1.609f;
         
-        System.out.println(km);
+        System.out.println("km: " + km);
         
         scan.close(); 
     }
